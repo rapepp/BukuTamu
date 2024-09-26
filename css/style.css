@@ -1,0 +1,28 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Righteous', cursive; 
+}
+
+.link a{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.navbar-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff !important; /* Warna teks putih */
+    font-size: 24px; /* Ukuran font */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Mengurangi margin di antara kolom */
+.row.gx-2 {
+    --bs-gutter-x: 0.5rem; /* Menyesuaikan jarak horizontal antar kolom */
+}
